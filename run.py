@@ -4,6 +4,7 @@ import shutil
 if not os.path.isdir('./ItemsAdder'):
     os.mkdir('./ItemsAdder') 
     os.mkdir('./ItemsAdder/data') 
+    print("Please put the ItemsAdder folder in the same directory as this file.")
     exit()
 if os.path.exists("./Output"):
     shutil.rmtree('./Output')
